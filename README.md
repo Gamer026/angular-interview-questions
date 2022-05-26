@@ -2325,10 +2325,11 @@ You can download the PDF and Epub version of this repository from the latest run
 
 131. ### what is an rxjs subject in Angular
      An RxJS Subject is a special type of Observable that allows values to be multicasted to many Observers. While plain Observables are unicast (each subscribed Observer owns an independent execution of the Observable), Subjects are multicast.Subjects are like EventEmitters: they maintain a registry of many listeners.There are four types of Subjects available based on how they behave,
-	1.Subject - No initial value or replay available
-	2.AsyncSubject - Emits latest values to subscribers on completion of the async task
-	3.BehaviouralSubject - requires an initial value and emits current values to new subscribers
-	4.ReplaySubject - replays a specified number of last values to new subscribers.
+	
+	1. Subject - No initial value or replay available
+	2. AsyncSubject - Emits latest values to subscribers on completion of the async task
+	3. BehaviouralSubject - requires an initial value and emits current values to new subscribers
+	4. ReplaySubject - replays a specified number of last values to new subscribers.
 	
 
      ``` typescript
