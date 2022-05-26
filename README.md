@@ -322,7 +322,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
   **[⬆ Back to Top](#table-of-contents)**
 
-2. ### What is the difference between AngularJS and Angular?
+2. What is the difference between AngularJS and Angular?
     Angular is a completely revived component-based framework in which an application is a tree of individual components.
 
     Some of the major difference in tabular form
